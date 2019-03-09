@@ -1,2 +1,3 @@
 # the line below to set the caps key as esc when tapped and ctrl when used in combination with some other key
+# https://askubuntu.com/questions/177824/remapping-caps-lock-to-control-and-escape-not-the-usual-way/228379#228379 (for reference)
 setxkbmap -option 'caps:ctrl_modifier' && xcape -e 'Caps_Lock=Escape' &
